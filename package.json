@@ -9,8 +9,9 @@
     }
   ],
   "dependencies": {
-    "tgi-spec": "*",
+    "chalk": "^0.5.1",
     "tgi-core": "*",
+    "tgi-spec": "*",
     "tgi-utility": "*"
   },
   "scripts": {
