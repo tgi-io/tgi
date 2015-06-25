@@ -1,7 +1,7 @@
 {
   "name": "tgi",
-  "version": "0.0.7",
-  "description": "command line app for framework",
+  "version": "0.0.8",
+  "description": "javascript application framework",
   "contributors": [
     {
       "name": "Sean Smith",
@@ -10,9 +10,17 @@
   ],
   "dependencies": {
     "chalk": "^0.5.1",
+    "framework7": "^1.0.6",
+    "font-awesome": "^4.3.0",
     "tgi-core": "*",
     "tgi-spec": "*",
-    "tgi-utility": "*"
+    "tgi-store-remote": "*",
+    "tgi-store-local": "*",
+    "tgi-interface-bootstrap": "*",
+    "tgi-interface-framework7": "*",
+    "tgi-interface-createjs": "*",
+    "tgi-store-json-file": "*",
+    "tgi-store-mongodb": "*"
   },
   "scripts": {
     "test": "node spec/node-test.js"
